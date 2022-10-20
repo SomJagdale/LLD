@@ -1,0 +1,12 @@
+Singleton design pattern
+
+Only one object or instance of class is created and shared between all user classes
+
+How to achive?
+1. Make constructor private, create one private static pointer instance variable of class type 
+2. Create one public access level static function so we can call it without creating its instance, since static function are class funtion rather than object function
+3. As a extraprecaution create copyconstructor and assignment operator also private
+4. If possible create that public function thread safe
+
+
+
