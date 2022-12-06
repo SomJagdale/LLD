@@ -1,0 +1,19 @@
+Low Level Design 
+1. A parking system has multiple floors, each floor has multiple parking slots 
+2. We can should available slots on floors
+3. Vehicles of 2 types car and bikes
+4. Should be show nearest available spot when car arrives 
+5. Find a vehicle by registration numbers
+6. When vehicle exists, marks its spot free again
+
+Future Expansions 
+1.  Payment methods - handle advance vs post payment 
+
+
+Entities 
+  - Vehicle 
+  - Parking spot 
+  - Parking floor 
+  - Parking lot(Parking System)
+  
+  
